@@ -94,3 +94,18 @@ a:active {
 	color: #222;
     	text-decoration: none;
 }
+
+.badge-pink {
+  color: #fff;
+  background-color: #cb42a9;
+}
+
+.badge-purple {
+  color: #fff;
+  background-color: #8d2fff;
+}
+
+.badge-vr {
+  color: #fff;
+  background-color: #00d0ff;
+}

@@ -61,6 +61,10 @@
 							<span class="badge badge-pill badge-info">Webmaster</span>
 							{% endif %}
 
+							{% if "3da" in member_info.group_list %}
+							<span class="badge badge-pill badge-pink">3D Printer Admin</span>
+							{% endif %}
+
 							{% if "eboard" in member_info.group_list %}
 							<span class="badge badge-pill badge-success">Executive Board</span>
 							{% endif %}
@@ -71,6 +75,14 @@
 
 							{% if "drink" in member_info.group_list %}
 							<span class="badge badge-pill badge-primary">Drink Admin</span>
+							{% endif %}
+
+							{% if "vra" in member_info.group_list %}
+							<span class="badge badge-pill badge-vr">Virtual Reality Admin</span>
+							{% endif %}
+
+							{% if "keymaster" in member_info.group_list %}
+							<span class="badge badge-pill badge-purple">Gatekeeper Admin</span>
 							{% endif %}
 
 							{% if member_info.user_obj.nsaccountlock == "TRUE" %}
